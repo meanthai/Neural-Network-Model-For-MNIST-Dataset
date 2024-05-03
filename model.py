@@ -193,7 +193,7 @@ class MLP:
         return np.argmax(probs, axis=1)# Return the class with the highest probability for each sample
 
 
-# Load the Wine dataset
+# Load the MNIST dataset
 url = "C:\\Users\\acer\\Downloads\\mnist_test.csv\\mnist_test.csv"
 raw_Data = pd.read_csv(url)
 data = raw_Data.iloc[:, :].values
