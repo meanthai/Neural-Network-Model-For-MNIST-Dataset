@@ -7,6 +7,6 @@ The built-from-scratch model has 3 hidden layers which have 284, 128, 16 neurons
 
 Furthermore, PCA is also applied to pre-process the dataset by reducing the dimensionality of the given dataset in order to reduce noise and improve performance.
 
-The result after training: The model achieving an absolute accuracy with more than 100% for the training set (around 8,000 examples) and approximately 95,5% for the testing set (2,000 examples). My own built-from-scratch model yields better performance than the MLPClassifier model from scikitlearn library. 
+The result after training: The model achieving an absolute accuracy with 100% for the training set (around 8,000 examples) and approximately 95,5% for the testing set (2,000 examples). My own built-from-scratch model yields better performance than the MLPClassifier model from scikitlearn library. 
 
 ![image](https://github.com/meanthai/Neural-Network-Model-For-MNIST-Dataset/assets/147926426/a2050525-50f8-40e4-8244-08149bc68a91)
