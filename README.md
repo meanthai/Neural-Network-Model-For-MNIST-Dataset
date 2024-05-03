@@ -1,5 +1,5 @@
 # Neural-Network-Model-For-MNIST-Dataset
-A built-from-scratch Neural Network model by Hoang Minh Thai for classifying 10 different digits (from 0 to 9) from the examples of the MNIST Dataset
+A built-from-scratch Neural Network model by Hoang Minh Thai for classifying 10 different digits (a number from 0 to 9) from the examples of the MNIST Dataset
 
 The given MNIST Dataset "mnist_test.csv" contains 10,000 test examples which are 28x28-pixels images and labels. Each row consists of 785 values: the first value is the label (a number from 0 to 9) and the remaining 784 values are the pixel values (a number from 0 to 255).
 
