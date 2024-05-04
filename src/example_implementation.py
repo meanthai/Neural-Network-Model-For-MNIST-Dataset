@@ -210,9 +210,8 @@ def show_image(imgs, labels):
     plt.tight_layout()
     plt.show()
 
+# Slicing the dataset to seperate the labels array (y) and the features array (X)
 mnist_images, mnist_labels = fetch_openml('mnist_784', version=1, return_X_y=True)
-
-# Slicing the dataset to seperate the labels array and the features array
 X = np.array(mnist_images, dtype=int)
 y = np.array(mnist_labels, dtype=int)
 
@@ -245,7 +244,7 @@ print("Testing accuracy of my own model", test_accuracy)
 print(classification_report(y_predict_test, y_test))
 
 
-# Using MLPClassifier from scikitlearn library
+# Using MLPClassifier from scikitlearn library for comparision
 model = MLPClassifier(solver="adam", alpha=0.01, learning_rate_init=0.001, hidden_layer_sizes=(284, 128, 16), batch_size=4 , max_iter=15, verbose=False, tol= 0.0000001)
 model.fit(X_train, y_train)
 y_pred_train = model.predict(X_train)
