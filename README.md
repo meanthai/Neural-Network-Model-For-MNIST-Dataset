@@ -12,3 +12,12 @@ The result after training: My own built-from-scratch model achieves a nearly abs
 
 ![image](https://github.com/meanthai/Neural-Network-Model-For-MNIST-Dataset/assets/147926426/0e214f1f-af85-4e57-9928-1aadec31c9fd)
 
+# Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+# License
+This project is licensed under the MIT License
+
+# Acknowledgements
+This project was inspired by Scikit-learn model MLPClassifier.
+
