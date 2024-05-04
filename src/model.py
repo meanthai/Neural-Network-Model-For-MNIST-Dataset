@@ -32,7 +32,7 @@ def softmax(X):
     softmax_output = exp_shifted / (np.sum(exp_shifted, axis=1, keepdims=True) + eps)
     return softmax_output
 
-class MLP:
+class Fredtou_model:
     def __init__(self, input_size, hidden_sizes, output_size, batch, learning_rate, alpha, epochs, tol):
         self.input_size = input_size
         self.output_size = output_size
