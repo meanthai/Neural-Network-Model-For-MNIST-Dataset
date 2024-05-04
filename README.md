@@ -16,7 +16,7 @@ The result after training: My own built-from-scratch model achieves a nearly abs
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 # License
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
 
 # Acknowledgements
 This project was inspired by Scikit-learn model MLPClassifier.
