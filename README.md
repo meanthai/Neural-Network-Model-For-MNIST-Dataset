@@ -5,7 +5,7 @@ This built-from-scratch neural network model, developed by Hoang Minh Thai, serv
 The 'mnist_784' dataset contains 70,000 examples, consisting of both training and testing data. Each example is a 28x28-pixel image paired with a label.. Each row consists of 785 values: the first value is the label (a number from 0 to 9) and the remaining 784 values are the pixel values (a number from 0 to 255).
 
 # Pre-processing Methods
-Furthermore, PCA method is also applied to pre-process the MNIST dataset by reducing the dimensionality of the given dataset in order to reduce noise and improve performance.
+Furthermore, PCA method is also applied to pre-process the MNIST dataset by reducing the dimensionality of the given dataset in order to reduce noise and improve performance of the model.
 
 # Training Result (compared to Scikit-learn model MLPClassifier)
 The result after training: My own built-from-scratch model achieves a nearly absolute accuracy with 99,29% for the training set (56,000 examples) and approximately 97,41% for the testing set (14,000 examples) that yields better performance than the built-in MLPClassifier model from Scikit-learn library.
