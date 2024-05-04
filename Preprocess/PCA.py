@@ -1,3 +1,5 @@
+from sklearn.preprocessing import StandardScaler
+
 # PCA step by step explaination by Fredtou
 def PCA(X):
     num_components = 0
